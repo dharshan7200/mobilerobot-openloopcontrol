@@ -95,4 +95,4 @@ if __name__ == '__main__':
 
 https://youtu.be/dX6P5jpJ_D0?si=FwDCumJsfmGhSCEW
 ## Result:
-Thus the python program code is developed to move the mobilerobot in the predefined pa
+Thus the python program code is developed to move the mobilerobot in the predefined path.
