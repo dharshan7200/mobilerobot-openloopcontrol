@@ -8,26 +8,24 @@ To develop a python control code to move the mobilerobot along the predefined pa
 2. Python 3.7
 
 ## Procedure
-
 Step1:
-
-<br/>
+Define the predefined path Create a list or array to store the coordinates of the robot's predefined path. Each coordinate should represent a point along the path that the robot needs to follow.
 
 Step2:
-
-<br/>
+Initialize the robot's starting position Set the robot's initial position to the first coordinate in the predefined path.
 
 Step3:
-
-<br/>
+Move the robot along the path Loop through each coordinate in the predefined path, starting from the second coordinate. Calculate the distance and direction from the robot's current position to the next coordinate. Use appropriate robot control commands to move the robot towards the next coordinate. Repeat this process for each coordinate in the predefined path.
 
 Step4:
+Check if the robot has reached the end of the path After completing the loop, compare the robot's final position with the last coordinate in the predefined path.
 
-<br/>
+If the two positions match or are within a certain threshold, the robot has successfully reached the end of the path. If not, modify the path or make other adjustments as needed.
 
 Step5:
+End the program
 
-<br/>
+Once the robot has reached the end of the path, stop the program or execute any additional tasks required. Print a message or perform any necessary cleanup steps before terminating the program.
 
 ## Program
 ```
@@ -93,26 +91,8 @@ if __name__ == '__main__':
 
 ![robo](./img/robomaster.png)
 
-Insert image here
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## MobileRobot Movement Video:
 
 https://youtu.be/dX6P5jpJ_D0?si=FwDCumJsfmGhSCEW
 ## Result:
-Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-
-<br/>
-<br/>
-
-```
-Mobile Robotics Laboratory
-Department of Artificial Intelligence and Data Science/ Machine Learning
-Saveetha Engineering College
-```
+Thus the python program code is developed to move the mobilerobot in the predefined pa
